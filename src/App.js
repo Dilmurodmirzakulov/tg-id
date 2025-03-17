@@ -1,5 +1,5 @@
 // src/App.js
-import React from "react";
+import React, { useEffect, useState } from "react";
 const tele = window.Telegram.WebApp;
 function App() {
   const [userId, setUserId] = useState(null);
