@@ -22,9 +22,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Telegram User ID</h1>
-        {tg && tg.initDataUnsafe && tg.initDataUnsafe.user ? (
-          <p>Your Telegram user ID is: {tg.initDataUnsafe.user.id}</p>
+        <h1>Telegram User ID : {userId}</h1>
+        {tele && tele.initDataUnsafe && tele.initDataUnsafe.user ? (
+          <p>Your Telegram user ID is: {tele.initDataUnsafe.user.id}</p>
         ) : (
           <p>No Telegram user data available.</p>
         )}
