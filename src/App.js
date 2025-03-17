@@ -3,9 +3,9 @@ import React, { useEffect, useState } from "react";
 const tele = window.Telegram.WebApp;
 function App() {
   const [userId, setUserId] = useState(null);
-  useEffect(() => {
-    tele.ready();
-  });
+  // useEffect(() => {
+  //   tele.ready();
+  // });
   useEffect(() => {
     // Check if the Telegram WebApp object is available
     if (window.Telegram && window.Telegram.WebApp) {
